@@ -1,0 +1,6 @@
+py-cord
+apscheduler
+python-dotenv
+gTTS
+pynacl
+pytz

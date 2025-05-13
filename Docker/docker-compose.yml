@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  bot:
+    build: .
+    container_name: alert-bot
+    env_file:
+      - .env
+    volumes:
+      - ./audio:/app/audio
+    restart: unless-stopped
